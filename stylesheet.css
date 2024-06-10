@@ -3,7 +3,7 @@ body{
     background-size:cover;
 }
 
-.fixed-nav-bar{
+/* .fixed-nav-bar{
     position:fixed;
     top: 0;
     left: 0;
@@ -12,4 +12,4 @@ body{
     height: 50px;
     background-color:rgb(255, 255, 255) ;
 
-}
+} */
