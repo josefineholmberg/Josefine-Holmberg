@@ -5,25 +5,21 @@ body{
 
 h1{
     color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font: size 300%;
+    font-family:F;
+    font-size: 300%;
 }
-/* .fixed-nav-bar{
-    position:fixed;
-    top: 0;
-    left: 0;
-    z-index:9999;
-    width: 100%;
-    height: 50px;
-    background-color:rgb(255, 255, 255) ;
 
-} */
 
+.image-container{
+    position: relative;
+    display: inline-block;
+
+}
 
 #comp{
 
-    width:900px;
-    height:auto;
+    display:block;
+  
     
 }
 
@@ -31,5 +27,27 @@ h1{
 
     width:900px;
     margin:auto;
+
+}
+
+.clickable-area{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 690px;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    pointer-events: none;
+
+}
+
+.clickable-area a {
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
 
 }
