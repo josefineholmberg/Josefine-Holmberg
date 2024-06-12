@@ -8,35 +8,35 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
+
     <body>
         
-    <div class="taskbar">
-        <div class="icons">
-            <div class="icons-left">
-                <a href="#start-menu-modal" id="start-menu"><i class="fab fa-windows"></i></a>
-                <a href="#search" id="search"></a>
-                <a href="#tabs" id="tabs-windows"></a>
-                <a href="#" class="px"></a>
-                <a href="#folder" id="folder" class="border"></a>
-                <a href="#chrome-pop-up" id="chrome" class="border"></a>
-            </div>
-            <div class="icons-right">
-                <a href="#up" id="up" class="small-icons"><i class="fas fa-chevron up"></i></a>
-                <a href="#sound-modal" id="sound" class="small-icons"></a>
-                <a href="#wifi-modal" id="wifi" class="small icons"></a>
-                <div class="datetime">
-                    <span class="hour">12.45</span>   
-                    <span class="date">2024-06-12</span>
-                    <!-- ändra till att importera dagens datum och tid  -->
+        <div class="taskbar">
+            <div class="icons">
+                <div class="icons-left">
+                    <a href="#start-menu-modal" id="start-menu"><i class="fab fa-windows"></i></a>
+                    <a href="#search" id="search"></a>
+                    <a href="#tabs" id="tabs-windows"></a>
+                    <a href="#" class="px"></a>
+                    <a href="#folder" id="folder" class="border"></a>
+                    <a href="#chrome-pop-up" id="chrome" class="border"></a>
                 </div>
-                <a href="#notifications" id="notifications"><i class="fa fa-bell"></i></a>
-                <a href="#" class="clear disabled"></a>
-                <a href="#" id="return"></a>
+                <div class="icons-right">
+                    <a href="#up" id="up" class="small-icons"><i class="fas fa-chevron up"></i></a>
+                    <a href="#sound-modal" id="sound" class="small-icons"></a>
+                    <a href="#wifi-modal" id="wifi" class="small icons"></a>
+                    <div class="datetime">
+                        <span class="hour" id="current-time"></span>   
+                        <span class="date" id="current date"></span>
+                        <!-- ändra till att importera dagens datum och tid  -->
+                    </div>
+                    <a href="#notifications" id="notifications"><i class="fa fa-bell"></i></a>
+                    <a href="#" class="clear disabled"></a>
+                    <a href="#" id="return"></a>
+                </div>
             </div>
-        </div>
- </div>
+     </div>
      
-
-
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
