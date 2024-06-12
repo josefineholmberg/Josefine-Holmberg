@@ -4,7 +4,17 @@
 }
 
 body{
-    background-color:rgb(249 242 246);
+   margin:0;
+   padding:0;
+   overflow-y:hidden;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.desktop{
+    height:100vh;
+    background:url(https://images.frandroid.com/wp-content/uploads/2019/12/windows-10-wallpaper.jpg);
+    background-position: center;
     background-size:cover;
 }
 
