@@ -124,4 +124,97 @@ body{
     pointer-events: none;
 }
 
+/* Right side of task-bar */
 
+.taskbar .icons-right{
+    height:43px;
+    float:right;
+}
+
+
+.taskbar .icons-right #wifi{
+    height: 43px;
+    width: 49px;
+    background-image: url(wifi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+
+}
+
+.taskbar .icons-right #sound{
+    height:43px;
+    width: 49px;
+    background-image:url(img/volume.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+.taskbar .icons-right #return {
+    width: 4px;
+    border-left: 1px solid grey;
+}
+  
+.taskbar .icons-right #notifications, .taskbar .icons-right #up {
+    height: 43px;
+    width: 42px;
+    position: relative;
+}
+  
+.taskbar .icons-right #notifications i, .taskbar .icons-right #up i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: white;
+}
+  
+.taskbar .icons-right .clear {
+    height: 43px;
+    width: 7px;
+    display: table-cell;
+}
+  
+.taskbar .icons-right .disabled {
+    pointer-events: none;
+    cursor: default;
+}
+  
+.taskbar .icons-right .datetime {
+    display: table-cell;
+    width: 70px !important;
+    cursor: pointer;
+    padding-top: 3px;
+}
+  
+.taskbar .icons-right .datetime span {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 11.3px;
+    color: white;
+}
+  
+.taskbar .icons-right .datetime:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+  
+.taskbar .icons-right a {
+    display: table-cell;
+}
+  
+.taskbar .icons-right a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+  
+.taskbar .icons-right a:not(:first-child) {
+    margin-left: -4px;
+}
+  
+.taskbar .icons-right .small-icons {
+    width: 24px !important;
+}
+  
+  
