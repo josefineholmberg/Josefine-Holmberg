@@ -83,7 +83,7 @@ body{
 .taskbar .icons-left #tabs-windows {
     height:43px;
     width:49px;
-    background-image:url(images/switch-window.png);
+    background-image:url(img/switch-window.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px 25px;
