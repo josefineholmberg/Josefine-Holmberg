@@ -696,3 +696,99 @@ body{
     position: relative;
     border-bottom: 1px solid grey;
 }
+
+.chrome-tabs {
+    float: left;
+    position: relative;
+    margin-left: 12px;
+}
+  
+.chrome-tabs .tabs {
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    width: 180px;
+    background: #f2f2f2;
+    cursor: default;
+}
+  
+.chrome-tabs .tabs .text-tabs {
+    font-size: 12px;
+    margin-left: 3px;
+    vertical-align: text-bottom;
+}
+  
+.chrome-tabs .tabs .close-tabs {
+    float: right;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 14px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-family: monospace;
+}
+  
+.chrome-tabs .tabs .close-tabs:hover {
+    background: rgba(255, 0, 0, 0.781);
+    color: white;
+    padding: 1px;
+}
+  
+.chrome-tabs .tabs:before {
+    content: " ";
+    position: absolute;
+    left: -33px;
+    bottom: 0;
+    background: grey;
+    width: 64px;
+    height: 1px;
+    transform: rotate(104deg);
+}
+  
+.chrome-tabs .tabs:after {
+    content: " ";
+    position: absolute;
+    right: -31px;
+    bottom: 0;
+    background: grey;
+    width: 64px;
+    height: 1px;
+    transform: rotate(70deg);
+}
+  
+.chrome-tabs .tabs .icons-tabs img {
+    height: 16px;
+    width: 16px;
+}
+  
+.new-tabs {
+    width: 26px;
+    height: 15px;
+    background: #ccc;
+    transform: skew(27deg);
+    position: absolute;
+    top: 7px;
+    right: -30px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+  
+.new-tabs:hover {
+    background: rgba(128, 128, 128, 0.3);
+}
+  
+.chrome-close {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.chrome-close a {
+    text-decoration: none;
+    font-size: 11px;
+    padding: 8px 24px 7px 24px;
+    color: grey;
+}
