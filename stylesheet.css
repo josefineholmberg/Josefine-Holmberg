@@ -218,7 +218,7 @@ body{
 }
 
 
-/* desktop */
+/* desktop (background, size) */
 
 .desktop{
     display: flex;
@@ -336,3 +336,67 @@ body{
 .desktop #sound-modal:hover .bar-sound-drag {
     background: white;
 }
+
+
+/* wifi (pop-up modal) */
+
+#wifi-modal {
+    background: #005a9e;
+    position: absolute;
+    right: 0;
+    bottom: 43px;
+    height: 600px;
+    width: 380px;
+    color: white;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+  
+#wifi-modal:target {
+    visibility: visible !important;
+    animation-name: open;
+    animation-duration: 0.1s;
+    transition: 0.1s;
+}
+  
+@keyframes open {
+    0% {
+      height: 550px;
+      opacity: 0.5;
+    }
+    100% {
+      height: 600px;
+      opacity: 1;
+    }
+}
+  
+#wifi-modal .list-networks .networks {
+    padding: 20px;
+    cursor: default;
+}
+
+#wifi-modal .list-networks .networks i {
+    transform: rotate(45deg);
+    font-size: 25px;
+}
+  
+#wifi-modal .list-networks .networks:first-child {
+    background: rgba(255, 255, 255, 0.1);
+}
+  
+#wifi-modal .list-networks .networks:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+  
+#wifi-modal .list-networks .networks span.name-wifi {
+    font-size: 18px;
+}
+  
+#wifi-modal .list-networks .networks span.type-wifi {
+    display: block;
+    font-size: 15px;
+    color: rgba(245, 245, 245, 0.644);
+}
+
+  
