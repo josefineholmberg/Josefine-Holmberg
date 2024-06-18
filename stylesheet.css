@@ -398,5 +398,115 @@ body{
     font-size: 15px;
     color: rgba(245, 245, 245, 0.644);
 }
+#wifi-modal .list-networks .networks .text-wifi {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+}
+  
+#wifi-modal .list-networks .networks .icons-wifi {
+    float: left;
+    padding: 10px 10px 0px 0px;
+    margin-right: 15px;
+ }
+  
+#wifi-modal .list-networks .networks .propriety {
+    font-size: 15px;
+    color: rgba(245, 245, 245, 0.6);
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+#wifi-modal .list-networks .networks .propriety:hover {
+    color: rgba(245, 245, 245, 0.9);
+}
+  
+#wifi-modal .list-networks .networks button {
+    display: block;
+    color: white;
+    background: #338ed6;
+    border: 2px solid transparent;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    float: right;
+    margin-top: 10px;
+}
+  
+#wifi-modal .list-networks .networks button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.63);
+}
+  
+#wifi-modal .list-networks .networks button:focus {
+    background: #66aae0;
+    outline: none;
+    border: 2px solid transparent;
+}
+  
+#wifi-modal .list-networks .options-wifi {
+    position: absolute;
+    bottom: 0;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc {
+    display: flex;
+    flex-direction: row;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc .bloc-options {
+    height: 75px;
+    width: 95px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0px 5px 6px;
+    position: relative;
+    border: 2px solid transparent;
+    cursor: default;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc .bloc-options i {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc .bloc-options span {
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 5px;
+    font-size: 14px;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc .bloc-options:first-child {
+    background: rgba(255, 255, 255, 0.3);
+}
+  
+#wifi-modal .list-networks .options-wifi .options-bloc .bloc-options:hover {
+    border: 2px solid rgba(255, 255, 255, 0.63);
+}
+  
+#wifi-modal .list-networks .options-wifi .options-wifi-text {
+    margin-left: 6px;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-wifi-text span {
+    display: block;
+    font-size: 14px;
+    color: rgba(245, 245, 245, 0.8);
+}
+  
+#wifi-modal .list-networks .options-wifi .options-wifi-text span:first-child {
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+#wifi-modal .list-networks .options-wifi .options-wifi-text span:not(:first-child) {
+    font-size: 12px;
+    cursor: default;
+}
 
   
