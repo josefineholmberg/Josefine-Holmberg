@@ -18,6 +18,8 @@ body{
     background-size:cover;
 }
 
+/* Taskbar */
+
 .taskbar{
     position:fixed;
     bottom:0;
@@ -123,7 +125,7 @@ body{
     pointer-events: none;
 }
 
-/* Right side of task-bar */
+/* Right side of the task-bar */
 
 .taskbar .icons-right{
     height:43px;
@@ -217,7 +219,7 @@ body{
 }
 
 
-/* desktop (background, size) */
+/* Desktop (Background, size etc) */
 
 .desktop{
     display: flex;
@@ -256,6 +258,8 @@ body{
 .desktop .icon-desktop:first-child {
     margin-top: 5px;
 }
+
+/* sound (pop up modal) */
   
 .desktop #sound-modal {
     background: #005a9e;
@@ -582,3 +586,80 @@ body{
     letter-spacing: 0.5px;
     cursor: default;
 }
+
+#start-menu-modal #apps a img {
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+}
+  
+#start-menu-modal #apps a img[alt="sublime"] {
+    background: #292929;
+}
+  
+#start-menu-modal #apps a img[alt="access"] {
+    background: #7c2325;
+}
+  
+#start-menu-modal #apps a i {
+    font-size: 25px;
+    line-height: 1.1;
+}
+  
+#start-menu-modal #apps a span {
+    margin-left: 8px;
+    color: whitesmoke;
+}
+  
+#start-menu-modal #apps a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+  
+#start-menu-modal #apps a.category {
+    height: 30px;
+}
+  
+#start-menu-modal #others .title-others {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 10px 0px 20px;
+    line-height: 2.5;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+  
+#start-menu-modal #others .box-others {
+    display: inline-flex;
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+  
+#start-menu-modal #others .box-others .box {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background: #0078d7;
+    margin-left: 4px;
+    border: 2px solid transparent;
+    margin-bottom: 4px;
+}
+  
+#start-menu-modal #others .box-others .box img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#start-menu-modal #others .box-others .box span {
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    font-size: 12px;
+}
+  
+#start-menu-modal #others .box-others .box:hover {
+    border: 2px solid #7fbbeb;
+  }
