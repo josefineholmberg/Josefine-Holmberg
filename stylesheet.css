@@ -135,7 +135,7 @@ body{
 .taskbar .icons-right #wifi{
     height: 43px;
     width: 49px;
-    background-image: url(wifi.png);
+    background-image: url(img/wifi.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 22px 22px;
