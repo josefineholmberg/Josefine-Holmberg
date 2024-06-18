@@ -27,6 +27,8 @@ body{
 
 }
 
+/* Left side of taskbar */
+
 .taskbar .icons-left{
     height:43px;
     display:inline-block;
@@ -46,6 +48,26 @@ body{
     transform:translate(-50%, -50%);
     font-size: 21px;
     color: white;
+}
+
+.taskbar .icons-left #search{
+    height:43px;
+    width:49px;
+    background-image:url(img/search.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 22px 22px;
+}
+
+
+.taskbar .icons-left #folder{
+    height: 43px;
+    width:49px;
+    background-image:url(img/file-explorer.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:24px 21px;
+
 }
 
 
