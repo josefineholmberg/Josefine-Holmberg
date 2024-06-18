@@ -74,7 +74,7 @@ body{
 .taskbar .icons-left #chrome{
     height: 43px;
     width: 49px;
-    background-image: url(images/chrome.png);
+    background-image: url(img/chrome.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 26px 26px;
