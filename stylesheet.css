@@ -837,6 +837,9 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+
+/* options bar */
   
 .chrome-bottom .options-bar {
     height: calc(62px / 2);
@@ -933,4 +936,60 @@ body{
   
 .chrome-bottom .options-bar .points-bar:hover {
     background: rgba(128, 128, 128, 0.2);
+}
+
+/* bookmarks */
+.chrome-bottom .bookmarks {
+    flex: 0 0 24%;
+    background: #f2f2f2;
+}
+  
+.chrome-bottom .bookmarks .folder-book {
+    cursor: default;
+    border-radius: 1px;
+    display: inline;
+}
+  
+.chrome-bottom .bookmarks .folder-book a {
+    font-size: 12px;
+    padding-right: 8px;
+    color: rgba(0, 0, 0, 0.836);
+    cursor: default;
+    padding-bottom: 3px;
+}
+  
+.chrome-bottom .bookmarks .folder-book i {
+    padding: 1px 8px 0px 10px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+  
+.chrome-bottom .bookmarks .folder-book i.fa-css3-alt {
+    color: #1b73ba;
+}
+  
+.chrome-bottom .bookmarks .folder-book i.fa-windows {
+    color: grey;
+}
+  
+.chrome-bottom .bookmarks .folder-book:hover {
+    background: #dfdfdf;
+}
+  
+.chrome-bottom .bookmarks .folder-book:first-child {
+    margin-left: 4px;
+}
+  
+.chrome-bottom .bookmarks .folder-book:first-child a {
+    vertical-align: baseline;
+}
+  
+.chrome-bottom .bookmarks .folder-book span {
+    background: #1f8dd6;
+    padding: 1px 3px 0px 3px;
+    font-size: 13px;
+    color: white;
+    vertical-align: text-top;
+    margin-right: 8px;
+    margin-left: 8px;
 }
