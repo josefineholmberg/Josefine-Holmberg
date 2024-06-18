@@ -663,4 +663,36 @@ body{
 #start-menu-modal #others .box-others .box:hover {
     border: 2px solid #7fbbeb;
   }
+
+  /* chrome */
+
+#chrome-pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 900px;
+    background: white;
+    visibility: hidden;
+    border: 2px solid #004275;
+    z-index: 1;
+    resize: both;
+    overflow-y: hidden;
+}
   
+#chrome-pop-up:target {
+    visibility: visible;
+}
+  
+#chrome-pop-up iframe {
+    height: 100vh;
+    width: 100%;
+}
+  
+.chrome-top {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
