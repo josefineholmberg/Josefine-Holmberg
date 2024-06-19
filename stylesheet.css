@@ -12,7 +12,7 @@
 } */
 
 body {
-    background-color: #ffe0e6; /* Ljusrosa */
+    background-color: #f0c7cf; /* Ljusrosa */
     font-family: Arial, sans-serif;
     margin: 0;
     display: flex;
@@ -23,8 +23,8 @@ body {
 
   /* Styling för datorbilden */
   .computer {
-    width: 80%; /* Förstorad datorbild */
-    position: relative;
+    width: 40%; /* Förstorad datorbild */
+    position: center;
   }
 
   /* Styling för skärmen */
