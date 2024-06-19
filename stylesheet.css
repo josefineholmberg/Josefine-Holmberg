@@ -44,12 +44,12 @@ body {
   /* Styling för skärmen */
   .screen {
     position: absolute;
-    top: 130px;
-    left: 400px;
-    width: 710px; /* Justera storleken för skärmen efter datorbilden */
+    top: 123px;
+    left: 100px;
+    width: 696px; /* Justera storleken för skärmen efter datorbilden */
     height: 382px; /* Justera höjden för skärmen efter datorbilden */
     overflow: hidden; /* Dölj innehåll som är utanför skärmen */
-    border-radius: 10px; /* Runda kanter på skärmen */
+    /* border-radius: 10px; Runda kanter på skärmen */
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Skugga för effekt */
 /*     
     display:flex;
