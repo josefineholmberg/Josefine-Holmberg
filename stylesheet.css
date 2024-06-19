@@ -50,10 +50,7 @@ body {
     align-items: center;
   }
 
-  /* Styla innehållet inuti skärmen (för HTML och CSS) */
-  .content {
-    width: 90%; /* Justera storleken för innehållet */
-  }
+ 
 
 
 .desktop{
