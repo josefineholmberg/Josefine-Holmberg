@@ -61,7 +61,7 @@ body {
 
 
 .desktop{
-    height:100vh;
+    height:400px;
     background:url(https://images.frandroid.com/wp-content/uploads/2019/12/windows-10-wallpaper.jpg);
     background-position: center;
     background-size:cover;
@@ -72,8 +72,11 @@ body {
 .taskbar{
     /* position:fixed;
     bottom:0; */
-    height:43px;
-    width:100%;
+    position:fixed;
+    width:57%;
+    bottom:100%;
+    /* height:43px;
+    width:100%; */
     background: #004172;
 
 }
