@@ -11,6 +11,18 @@ body{
 
 }
 
+.wrapper{
+    width:80%;
+    max-width: 1200px; /* Maximal bredd för din wrapper */
+    height: 80%; /* Justera denna procent för att ändra storlek */
+    max-height: 900px; /* Maximal höjd för din wrapper */
+    background: #ffffff; /* Bakgrundsfärg för wrappern om det behövs */
+    border-radius: 10px; /* Valfri avrundning av hörn */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+    position: relative;
+}
+
 .desktop{
     height:100vh;
     background:url(https://images.frandroid.com/wp-content/uploads/2019/12/windows-10-wallpaper.jpg);
