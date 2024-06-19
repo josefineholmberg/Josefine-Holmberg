@@ -26,14 +26,18 @@ body {
 .computer{
     position:absolute;
     width:900px;
-    margin:auto;
+    height:900px;
+    margin-top:0px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:500px;
 }
 
 #comp{
 
     position:relative;
     width:900px;
-    height:auto;
+    height:900px;
     
 }
 
