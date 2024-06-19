@@ -37,17 +37,18 @@ body {
   /* Styling för skärmen */
   .screen {
     position: absolute;
-    top: 10%;
-    left: 15%;
-    width: 70%; /* Justera storleken för skärmen efter datorbilden */
+    top: 7%;
+    left: 12%;
+    width: 75%; /* Justera storleken för skärmen efter datorbilden */
     height: 60%; /* Justera höjden för skärmen efter datorbilden */
     overflow: hidden; /* Dölj innehåll som är utanför skärmen */
     background-color: #ffffff; /* Bakgrundsfärg för skärmen */
     border-radius: 10px; /* Runda kanter på skärmen */
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Skugga för effekt */
-    display: flex;
+/*     
+    display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
  
