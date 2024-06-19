@@ -23,6 +23,7 @@ body {
 
   #comp{
 
+    position:relative;
     width:900px;
     height:auto;
     
@@ -37,7 +38,7 @@ body {
   /* Styling för skärmen */
   .screen {
     position: absolute;
-    top: 65px;
+    top: 62px;
     left: 260px;
     width: 697px; /* Justera storleken för skärmen efter datorbilden */
     height: 450px; /* Justera höjden för skärmen efter datorbilden */
