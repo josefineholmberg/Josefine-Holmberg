@@ -30,7 +30,7 @@ body {
 }
 
 .computer{
-
+    position:absolute;
     width:900px;
     margin:auto;
 }
