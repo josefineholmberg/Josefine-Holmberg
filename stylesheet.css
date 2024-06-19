@@ -707,7 +707,7 @@ body{
     padding-top: 6px;
     padding-left: 12px;
     padding-right: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 3px;
     width: 180px;
     background: #f2f2f2;
     cursor: default;
@@ -882,7 +882,7 @@ body{
     border-radius: 4px;
     padding: 8px;
     width: 100%;
-    text-indent: 87px;
+    
 }
   
 .chrome-bottom .options-bar .search-bar input:focus {
