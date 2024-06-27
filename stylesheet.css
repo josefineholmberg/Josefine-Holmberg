@@ -61,7 +61,7 @@ body {
 
 
 .desktop{
-    height:calc(100% - 28px);
+    height:calc(100% - 26px);
     background:url(https://images.frandroid.com/wp-content/uploads/2019/12/windows-10-wallpaper.jpg);
     background-position: center;
     background-size:cover;
@@ -76,7 +76,7 @@ body {
     
     width:100%;
     
-    height:28px;
+    height:26px;
     
     background: #004172;
 
