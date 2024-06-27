@@ -278,8 +278,8 @@ body {
 }
 
 .desktop .icon-desktop {
-    /* padding: 4px 8px 4px 8px;
-    border: 2px solid transparent; */
+    padding: 2px 4px 2px 4px;
+    border: 1px solid transparent; 
     text-align: center;
     margin-bottom: 18px;
 }
@@ -308,7 +308,7 @@ body {
 }
   
 .desktop .icon-desktop:first-child {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /* sound (pop up modal) */
