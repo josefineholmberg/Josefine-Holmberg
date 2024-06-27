@@ -108,19 +108,19 @@ body {
     position:absolute;
     top:32%;
     left:50%;
-    bottom:65%;
+   
     transform:translate(-50%, -50%);
     font-size: 15px;
     color: white;
 }
 
 .taskbar .icons-left #search{
-    height:43px;
+    height:22px;
     width:49px;
     background-image:url(img/search.png);
     background-repeat:no-repeat;
     background-position:center;
-    background-size: 22px 22px;
+    background-size: 16px 16px;
 }
 
 
@@ -130,7 +130,7 @@ body {
     background-image:url(img/file-explorer.png);
     background-repeat:no-repeat;
     background-position: center;
-    background-size:24px 21px;
+    background-size:18px 16px;
 
 }
 
@@ -141,7 +141,7 @@ body {
     background-image: url(img/chrome.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 26px 26px;
+    background-size: 18px 18px;
 }
 
 .taskbar .icons-left #tabs-windows {
