@@ -106,10 +106,11 @@ body {
 
 .taskbar .icons-left #start-menu i, .taskbar .icons-left #tabs-windows i{
     position:absolute;
-    top:50%;
+    top:32%;
     left:50%;
+    bottom:65%;
     transform:translate(-50%, -50%);
-    font-size: 21px;
+    font-size: 15px;
     color: white;
 }
 
