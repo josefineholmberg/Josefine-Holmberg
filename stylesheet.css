@@ -236,7 +236,7 @@ body {
 }
   
 .taskbar .icons-right .clear {
-    height: 22px;
+    height: 43px;
     width: 7px;
     display: table-cell;
 }
@@ -256,8 +256,8 @@ body {
 .taskbar .icons-right .datetime span {
     display: block;
     text-align: center;
-    /* margin-top: 5px; */
-    font-size: 9px;
+    margin-top: 5px;
+    font-size: 11.3px;
     color: white;
 }
   
