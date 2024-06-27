@@ -85,12 +85,12 @@ body {
 /* Left side of taskbar */
 
 .taskbar .icons-left{
-    height:43px;
+    height:22px;
     display:inline-block;
 }
 
 .taskbar .icons-left #start-menu, .taskbar .icons-left #tabs-windows{
-    height:43px;
+    height:22px;
     width:48px;
     position:relative;
 
@@ -116,7 +116,7 @@ body {
 
 
 .taskbar .icons-left #folder{
-    height: 43px;
+    height: 22px;
     width:49px;
     background-image:url(img/file-explorer.png);
     background-repeat:no-repeat;
@@ -127,7 +127,7 @@ body {
 
 
 .taskbar .icons-left #chrome{
-    height: 43px;
+    height: 22px;
     width: 49px;
     background-image: url(img/chrome.png);
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body {
 }
 
 .taskbar .icons-left #tabs-windows {
-    height:43px;
+    height:22px;
     width:49px;
     background-image:url(img/switch-window.png);
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ body {
 }
 
 .taskbar icons-left #tabs-windows:hover{
-    height: 43px;
+    height: 22px;
     width:49px;
     background-image:url(img/switch-window.png);
     background-position:center;
