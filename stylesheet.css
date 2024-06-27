@@ -221,8 +221,8 @@ body {
 }
   
 .taskbar .icons-right #notifications, .taskbar .icons-right #up {
-    height: 33px;
-    width: 42px;
+    height: 22px;
+    width: 37px;
     position: relative;
 }
   
