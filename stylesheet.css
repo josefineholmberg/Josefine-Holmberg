@@ -191,14 +191,14 @@ body {
 /* Right side of the task-bar */
 
 .taskbar .icons-right{
-    height:43px;
+    height:22px;
     float:right;
 }
 
 
 .taskbar .icons-right #wifi{
-    height: 43px;
-    width: 49px;
+    height: 22px;
+    width: 40px;
     background-image: url(img/wifi.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -207,8 +207,8 @@ body {
 }
 
 .taskbar .icons-right #sound{
-    height:43px;
-    width: 49px;
+    height:22px;
+    width: 40px;
     background-image:url(img/volume.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -221,7 +221,7 @@ body {
 }
   
 .taskbar .icons-right #notifications, .taskbar .icons-right #up {
-    height: 43px;
+    height: 33px;
     width: 42px;
     position: relative;
 }
