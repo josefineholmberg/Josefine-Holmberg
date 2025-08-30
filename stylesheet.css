@@ -22,7 +22,7 @@ body {
   }
 
  
-/* 
+
 .computer{
     position:absolute;
     width:900px;
@@ -31,15 +31,15 @@ body {
     margin-left:300px;
     margin-right:300px;
     margin-bottom:500px;
-} */
+}
 
-/* #comp{
+#comp{
 
     position:relative;
     width:900px;
     height:900px;
     
-} */
+}
 
   /* Styling för skärmen */
   .screen {
